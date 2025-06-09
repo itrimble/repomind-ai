@@ -13,7 +13,7 @@ import os
 app = FastAPI()
 
 
-origins = ["http://localhost:3000", "https://gitdiagram.com"]
+origins = ["http://localhost:3000", "http://localhost:6001", "https://gitdiagram.com"]
 
 app.add_middleware(
     CORSMiddleware,
